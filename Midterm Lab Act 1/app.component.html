@@ -1,0 +1,75 @@
+<!---
+<h2> Date Pipes</h2>
+<div> 
+  <br> Today's date :- {{presentDate}} <br/>
+  <br> Short Date: {{presentDate | date: 'shortDate'}}<br/>
+  <br> Medium Date: {{presentDate | date: 'mediumDate'}}<br/>
+  <br> Long Date: {{presentDate | date: 'longDate'}}<br/>
+</div>
+
+<h2> Data with Parameters</h2>
+<br> This will show a formatted date:- {{presentDate | date: 'M/dd/yyyy'}}<br/>
+<br> This indicates the hours and minutes:- {{presentDate | date: 'h:mm'}}<br/>
+
+<div>
+  <h2> Chained Pipes</h2>
+  <br>Date with uppercase:- {{presentDate | date: 'fullDate' | uppercase}}<br/>
+  <br>Date with lowercase:- {{presentDate | date: 'medium' | lowercase}}<br/>
+</div>
+
+<div> 
+  <h2> Async Pipe</h2>
+  Seconds changing in Time: {{ time$ | async | date:'mediumTime' }} 
+</div> -->
+
+<h2> Text Format Pipes</h2>
+<div>
+  <p>Original String: {{ myString }}</p>
+  <p>Lowercased String: {{ myString | lowercase }}</p>
+  <p>Uppercase String: {{ myString | uppercase }}</p>
+</div>
+<h2> Currency Format Pipes</h2>
+<div>
+  <p>Price: {{ price | currency }}</p>
+  <p>Price: {{ price | currency:'Php':'symbol-narrow':'4.2-2' }}</p>
+  <p>Price: {{ price | currency:'EUR':'symbol-narrow':'4.2-2' }}</p>
+</div>
+
+<h2> Date Pipes</h2>
+<div>
+  <p>Current date: {{ currentDate | date }}</p>
+  <p>Current date: {{ currentDate | date:'fullDate' }}</p>
+  <p>Current date: {{ currentDate | date:'short' }}</p>
+</div>
+<h2> Decimal Pipes</h2>
+  Round off: 1.5 = {{ 1.5 | number: '1.0-0'}}<br>
+  2 decimal points: {{ 3.54563224684 | number: '1.1-2'}}<br>
+  With comma and 2 decimal points: {{ 294056.015143 | number: '3.1-2'}}
+
+<h2> Json Pipes</h2>
+<div>
+  <pre>{{ data | json }}</pre>
+</div>
+
+<h2> Percent Pipes</h2>
+<div>
+  <p>Original Number: {{ myNumber }}</p>
+  <p>Percentage Value: {{ myNumber | percent }}</p>
+  <p>Sale: {{ myNumber | percent }}</p>
+</div>
+
+<h2> Slice Pipes</h2>
+<div>
+  <p>Original Array: {{ myArray }}</p>
+  <p>Sliced Array: {{ myArray | slice:0:3 }}</p>
+</div>
+
+<div>
+  <p>Original String: {{ String }}</p>
+  <p>Sliced String: {{ String | slice:0:7 }}</p>
+</div>
+
+<div>
+  <p>Original String: {{ Array }}</p>
+  <p>Sliced String: {{ Array | slice:4:5 }}</p>
+</div>
