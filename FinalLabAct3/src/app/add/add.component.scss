@@ -1,0 +1,78 @@
+hr.rounded {
+    border-top: 30px solid #000000;
+    border-radius: -1px;
+    z-index: 1;
+}
+
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+  }
+  .example-card {
+    max-width: 400px;
+  }
+
+  .mat-button{
+     color: white;
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+
+  .active {
+    background-color: gray; /* Define your styles for the active state */
+  }
+
+  img{
+    width: 300vh;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.mat-toolbar{
+  background-color: rgb(255, 78, 78);
+  color: white;
+}
+
+.color{
+  background-color: red;
+}
+
+
+

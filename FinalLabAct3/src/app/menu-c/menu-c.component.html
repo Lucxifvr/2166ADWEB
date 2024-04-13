@@ -1,0 +1,155 @@
+<hr class="rounded bg-dark">
+<mat-grid-list cols="2" rowHeight="2:1">
+
+    <mat-grid-tile>
+        
+        <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>Caramel Machiatto</mat-card-title>
+            <mat-card-subtitle>medium</mat-card-subtitle>
+            <img mat-card-xl-image src="https://www.allrecipes.com/thmb/LgtetzzQWH3GMxFISSii84XEAB8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/258686-IcedCaramelMacchiato-ddmps-4x3-104704-2effb74f7d504b8aa5fbd52204d0e2e5.jpg" >
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-icon (click)="decrement()">remove</mat-icon>
+            <mat-icon matBadge="{{ cartCount }}" matBadgeColor="primary" matBadgeSize="small">shopping_cart</mat-icon>
+          <mat-icon (click)="increment()">add</mat-icon>
+          <br>
+          {{longText}}
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>Spanish Latte</mat-card-title>
+            <mat-card-subtitle>Medium</mat-card-subtitle>
+            <img mat-card-xl-image src="https://coffeeaffection.com/wp-content/uploads/2021/05/Spanish-latte-milk-and-espresso.jpg" >
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-icon (click)="decrement()">remove</mat-icon>
+            <mat-icon matBadge="{{ cartCount }}" matBadgeColor="primary" matBadgeSize="small">shopping_cart</mat-icon>
+          <mat-icon (click)="increment()">add</mat-icon>
+          <br>
+          {{longText}}
+        </mat-card-content>
+      </mat-card>
+
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title>Sea Salt Caramel Latte</mat-card-title>
+                <mat-card-subtitle>Extra large</mat-card-subtitle>
+                <img mat-card-xl-image src="https://cdn.mathieuteisseire.com/media/mx0dv4ng/recipe-168-sea-salt-caramel-latte.jpg" >
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                <mat-icon (click)="decrement()">remove</mat-icon>
+                <mat-icon matBadge="{{ cartCount }}" matBadgeColor="primary" matBadgeSize="small">shopping_cart</mat-icon>
+              <mat-icon (click)="increment()">add</mat-icon>
+              <br>
+              {{longText}}
+            </mat-card-content>
+          </mat-card>
+    
+          <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title>Caramel Mocha Latte</mat-card-title>
+                <mat-card-subtitle>Extra large</mat-card-subtitle>
+                <img mat-card-xl-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPeCzCa0I_u8mKw8DX25x3tYXq77fcK7KR4L5KgiWwA&s" >
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                <mat-icon (click)="decrement()">remove</mat-icon>
+                <mat-icon matBadge="{{ cartCount }}" matBadgeColor="primary" matBadgeSize="small">shopping_cart</mat-icon>
+              <mat-icon (click)="increment()">add</mat-icon>
+              <br>
+              {{longText}}
+            </mat-card-content>
+          </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title>Matcha Latte</mat-card-title>
+                <mat-card-subtitle>Extra large</mat-card-subtitle>
+                <img mat-card-xl-image src="https://coffeecopycat.com/wp-content/uploads/2023/04/IcedMatchaLatte-1200-x-1200.jpg" >
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                <mat-icon (click)="decrement()">remove</mat-icon>
+                <mat-icon matBadge="{{ cartCount }}" matBadgeColor="primary" matBadgeSize="small">shopping_cart</mat-icon>
+              <mat-icon (click)="increment()">add</mat-icon>
+              <br>
+              {{longText}}
+            </mat-card-content>
+          </mat-card>
+    
+          <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title>Iced Americano</mat-card-title>
+                <mat-card-subtitle>Extra large</mat-card-subtitle>
+                <img mat-card-xl-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzYz-6QdY_wjOoRE7T8dZ1glMYciW-s7d-Xg43TXJBoA&s" >
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                <mat-icon (click)="decrement()">remove</mat-icon>
+                <mat-icon matBadge="{{ cartCount }}" matBadgeColor="primary" matBadgeSize="small">shopping_cart</mat-icon>
+              <mat-icon (click)="increment()">add</mat-icon>
+              <br>
+              {{longText}}
+            </mat-card-content>
+          </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>   
+
+    <mat-card class="example-card">  
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>Iced Biscoff Latte</mat-card-title>
+            <mat-card-subtitle>Extra large</mat-card-subtitle>
+            <img mat-card-xl-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjor4B3I3FK_rd8nuTq4IZmF37qKUiRG1-yy9Ekhpx0Q&s" >
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-icon (click)="decrement()">remove</mat-icon>
+            <mat-icon matBadge="{{ cartCount }}" matBadgeColor="primary" matBadgeSize="small">shopping_cart</mat-icon>
+          <mat-icon (click)="increment()">add</mat-icon>
+          <br>
+          {{longText}}
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>Hazelnut Latte</mat-card-title>
+            <mat-card-subtitle>Extra large</mat-card-subtitle>
+            
+            <img mat-card-xl-image src="https://www.whiskaffair.com/wp-content/uploads/2023/01/Starbucks-Copycat-Hazelnut-Latte-2-3.jpg" >
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-icon (click)="decrement()">remove</mat-icon>
+            <mat-icon matBadge="{{ cartCount }}" matBadgeColor="primary" matBadgeSize="small">shopping_cart</mat-icon>
+          <mat-icon (click)="increment()">add</mat-icon>
+          <br>
+          {{longText}}
+        </mat-card-content>
+      </mat-card>
+
+    </mat-grid-tile>
+  </mat-grid-list>
+
+
+
